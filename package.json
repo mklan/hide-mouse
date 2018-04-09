@@ -1,0 +1,43 @@
+{
+  "name": "hide-mouse",
+  "version": "1.0.0",
+  "description": "Hides the cursor after a specific time without movement",
+  "author": "Matthias Klan <matthias.klan@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthiasklan/hide-mouse.git"
+  },
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "files": [
+    "dist/"
+  ],
+  "main": "dist/hide-mouse.min.js",
+  "scripts": {
+    "test": "jest",
+    
+    "example": "parcel example/index.html --out-dir example/build",
+    "build": "jest && webpack -p --config build-config/webpack.lib.js",
+    
+    "prepublish": "npm build",
+    "major": "jest && npm version major && npm publish",
+    "minor": "jest && npm version minor && npm publish",
+    "patch": "jest && npm version patch && npm publish"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "dependencies": {
+    "rxjs": "^5.5.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "parcel-bundler": "^1.7.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
