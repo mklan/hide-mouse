@@ -19,9 +19,10 @@
     "build": "jest && webpack -p --config build-config/webpack.lib.js",
     
     "prepublish": "npm build",
-    "major": "jest && npm version major && npm publish",
-    "minor": "jest && npm version minor && npm publish",
-    "patch": "jest && npm version patch && npm publish"
+    "preversion": "npm test",
+    "major": "npm version major && npm publish",
+    "minor": "npm version minor && npm publish",
+    "patch": "npm version patch && npm publish"
   },
   "jest": {
     "collectCoverage": true
