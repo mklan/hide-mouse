@@ -1,6 +1,8 @@
 # hide-mouse
 Hides the mouse cursor after a specific time.
 
+![Demo as animated Gif](https://github.com/matthiasklan/hide-mouse/blob/master/demo.gif)
+
 ## Install
 
 `npm install hide-mouse`
