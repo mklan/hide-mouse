@@ -1,6 +1,6 @@
 {
   "name": "hide-mouse",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Hides the cursor after a specific time without movement",
   "author": "Matthias Klan <matthias.klan@gmail.com>",
   "repository": {
