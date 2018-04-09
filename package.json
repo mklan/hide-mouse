@@ -1,6 +1,6 @@
 {
   "name": "hide-mouse",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Hides the cursor after a specific time without movement",
   "author": "Matthias Klan <matthias.klan@gmail.com>",
   "repository": {
@@ -16,7 +16,7 @@
     "test": "jest",
     "example": "parcel example/index.html --out-dir example/build",
     "build": "jest && webpack -p --config build-config/webpack.lib.js",
-    "prepublish": "npm build",
+    "prepublish": "npm run build",
     "preversion": "npm test",
     "major": "npm version major && npm publish",
     "minor": "npm version minor && npm publish",
