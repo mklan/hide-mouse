@@ -18,7 +18,7 @@ const el = document.getElementById('hide-area');
 const hm = hideMouse({ el, hideAfter: 2000 });
 ```
 
-It is also possible to temporarily deactiave the behavior by using the `deactivate` method.
+It is also possible to temporarily deactivate the behavior by using the `deactivate` method.
 
 ```javascript
 hm.deactivate();
