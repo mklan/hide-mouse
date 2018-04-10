@@ -25,7 +25,7 @@ export const createHideMouse = ({
                                 .filter(event => event);
 
 
-    // the mouse has not been moved for 'hideAfter' ms
+    // the mouse has not been moved for 'timeout' ms
     const mouseMoveEndTimeout$ = mouseMoveEndSource
                                     .merge(mouseMoveSource)
                                     .debounceTime(timeout)
