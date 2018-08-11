@@ -1,7 +1,7 @@
 # hide-mouse
 Hides the cursor after a specific time without movement.
 
-![Demo as animated Gif](https://github.com/matthiasklan/hide-mouse/blob/master/demo.gif)
+![Demo as animated Gif](https://github.com/mklan/hide-mouse/blob/master/demo.gif)
 
 ## Install
 
